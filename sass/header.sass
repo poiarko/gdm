@@ -1,0 +1,67 @@
+.header
+  display: flex
+  width: 100%
+  max-height: 90px
+  border-bottom: 1px solid #E0E5E9
+  background-color: #F7F9FB
+  .logo
+    width: 301px
+    max-height: 90px
+    background-color: #fff
+    img
+      padding: 20px 59px 20px 32px
+  .header-inner
+    display: flex
+    justify-content: space-between
+    width: 100%
+    padding: 28px 40px 0 75px
+    .header-welcome
+      padding-top: 4px
+      .welcome-text
+        font-family: 'Proxima Nova'
+        font-size: 23px
+        font-weight: 400
+        line-height: 28px
+        color: #000333
+    .account-wrapper
+      display: flex
+      .header-notification
+        position: relative
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 38px
+        height: 38px
+        margin-right: 32px
+        background-color: #fff
+        border-radius: 15px
+        box-shadow: 0px 5px 5px rgba(42, 43, 78, 0.05)
+        .notify
+          width: 14px
+          height: 14px
+          background: #FF4D57
+          position: absolute
+          top: 0
+          right: 0
+          border-radius: 50%
+          .notify-number
+            font-family: Proxima Nova
+            font-weight: 600
+            font-size: 10px
+            color: #fff
+            text-align: center
+      .header-avatar
+        @extend .header-notification
+        border: 1px solid #66B7B0
+        background: none
+        margin-right: 13px
+      .header-profile
+        display: flex
+        .profile-text
+          font-weight: 600
+          font-size: 16px
+          line-height: 16px
+          padding-top: 11px
+          padding-right: 19px
+        .profile-arrow
+          padding-top: 11px

@@ -1,0 +1,49 @@
+.interactive-card
+  width: 200px
+  height: 80px
+  padding: 12px 0 10px 14px
+  background: #FFFFFF
+  border: 1px solid rgba(102, 183, 176, 0.2)
+  border-radius: 4px
+
+  .title
+    margin-bottom: 8px
+    font-size: 16px
+    font-weight: 600
+    line-height: 16px
+    color: #676874
+
+  .count
+    margin-bottom: 8px
+    font-size: 12px
+    font-weight: 400
+    line-height: 12px
+    color: transparent
+
+  .status
+    display: flex
+    align-items: center
+
+    img
+      margin-right: 10px
+
+    p
+      font-weight: 400
+      font-size: 12px
+      line-height: 10px
+      color: #676874  
+
+  &.completed
+    background: rgba(102, 183, 176, 0.1)
+    border: 1px solid rgba(102, 183, 176, 0.2)
+
+    .count
+      color: #676874
+
+    .status
+      img
+        margin-right: 2px
+      p
+        font-weight: 600
+        color: #00877B
+
