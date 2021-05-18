@@ -1,0 +1,53 @@
+.card-video
+  display: flex
+  padding: 8px 13px 8px 8px
+  margin-top: 16px
+  width: 394px
+  border: 1px solid $color-grey-20
+  box-shadow: 0px 10px 10px rgba(142, 142, 142, 0.05)
+  border-radius: 4px
+
+  &__img
+    position: relative
+    max-width: 113px
+    max-height: 103px
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2))
+
+  &__play
+    position: absolute
+    margin: auto
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+  &__time
+    position: absolute
+    padding: 4px 8px
+    background: rgba(0, 3, 51, 0.6)
+    border-radius: 2px
+    right: 2px
+    bottom: 2px
+    color: $color-white
+
+  &__time-text
+    font-size: 13px
+    line-height: 13px
+
+  &__info
+    display: flex
+    flex-direction: column
+    width: 100%
+    margin-left: 16px
+    margin-right: 18px
+
+  &__title
+    height: 40
+    font-weight: 600
+    margin-bottom: 8px
+    color: $color-dark
+
+  &__subtitle
+    font-size: 13px
+    color: $color-grey-40
+

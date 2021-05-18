@@ -1,19 +1,19 @@
 .btn-primary
   display: flex
-  background: #00877B
+  background: $color-green
   border-radius: 3px
-  padding: 10px 22px
+  padding: 10px 24px
 
-  span
+  &__text
     font-size: 15px
     font-weight: 600
     line-height: 16px
-    color: #fff
+    color: $color-white
 
-  &.lg
+  &_lg
     padding: 16px 56px
 
-  .arrow
+  &__arrow
     display: flex
     align-items: center
     width: 16px
@@ -24,30 +24,29 @@
 
 .btn-secondary
   display: flex
-  justify-content: center
   align-items: center
-  margin-right: 31px
-  width: 178px
-  height: 40px
-  border: 1px solid #E0E5E9
+  padding: 12px 28px
+  border: 1px solid $color-grey-20
   border-radius: 3px
-  background: #fff
+  background: $color-white
 
-  span
+  &__text
     font-size: 15px
     font-weight: 600
     line-height: 16px
     margin-right: 16px
-    color: #247BFD
+    white-space: nowrap
+    color: $color-blue
 
-    .arrow
-      width: 16px
-      height: 16px
+  &__arrow
+    width: 16px
+    height: 16px
 
-  &.w-full
+  &_full
     width: 100%
+    justify-content: center
 
-  &.lg
+  &_lg
     width: 320px
     height: 48px
 
@@ -60,20 +59,20 @@
   font-size: 15px
   font-weight: 600
   line-height: 16px
-  background-color: #fff
-  border: 1px solid #247BFD
+  background-color: $color-white
+  border: 1px solid $color-blue
   border-radius: 3px
 
-  span
-    color: #247BFD
+  &__text
+    color: $color-blue
 
-  &.deactive
+  &_deactive
     width: 87px
     margin-left: 12px
-    border: 1px solid #E0E5E9
+    border: 1px solid $color-grey-20
 
     span
-      color: #ACADB8
+      color: $color-grey-40
 
 .btn-info
   display: flex
@@ -81,14 +80,14 @@
   align-items: center
   width: 115px
   height: 28px
-  background: #F7F7F8
+  background: $color-grey-10
   border-radius: 3px
 
-  span
+  &__text
     font-size: 15px
     font-weight: 400
     line-height: 16px
-    color: #676874
+    color: $color-grey-50
 
 .btn-ask
   display: flex
@@ -96,17 +95,17 @@
   align-items: center
   width: 115px
   height: 28px
-  background: #fff
+  background: $color-white
   border-radius: 3px
-  border: 1px solid #66B7B0
+  border: 1px solid $color-green-light
 
-  span
+  &__text
     margin-left: 10px
     font-size: 15px
     font-weight: 400
     line-height: 16px
-    color: #00877B
+    color: $color-green
 
-  &.lg
+  &_lg
     width: 194px
     height: 47px

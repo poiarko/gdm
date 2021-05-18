@@ -3,51 +3,52 @@
   align-items: center
   padding: 14px
   height: 84px
-  color: #000333
-  border: 1px solid #00877B
-  border-left: 4px solid #00877B
+  color: $color-dark
+  border: 1px solid $color-green
+  border-left: 4px solid $color-green
   box-shadow: 0px 5px 5px rgba(0, 135, 123, 0.05)
   border-radius: 4px
-  background-color: #fff
+  background-color: $color-white
 
-  .avatar-wrap
+  &__avatar
+    display: flex
     margin-right: 10px
 
-  .title
+  &__info
+    margin-right: 23px
+
+  &__title
     margin-bottom: 8px
-    font-size: 16px
     font-weight: 600
     line-height: 16px
-    color: #000333
+    color: $color-dark
 
-  .count
+  &__count
     margin-bottom: 10px
-    margin-right: 31px
     font-size: 12px
-    font-weight: 400
     line-height: 12px
-    color: #676874  
+    color: $color-grey-50
 
-  .percent-wrap
+  &__percent-wrap
     display: flex
     align-items: center
 
-    .percent
-      font-size: 12px
-      font-weight: 600
-      line-height: 10px
-      margin-right: 5px
-      color: #00877B
+  &__percent
+    font-size: 12px
+    font-weight: 600
+    line-height: 10px
+    margin-right: 5px
+    color: $color-green
 
-    .progress-bar
-      width: 91px
-      height: 3px
-      background: #E0E5E9
-      border-radius: 10px
+  &__progress-bar
+    width: 91px
+    height: 3px
+    background: $color-grey-20
+    border-radius: 10px
 
-      .indicator
-        width: 34%
-        height: 100%
-        background-color: #fff
-        background: #66B7B0
-        border-radius: 10px
+  &__indicator
+    width: 34%
+    height: 100%
+    background-color: $color-white
+    background: $color-green-light
+    border-radius: 10px
