@@ -1,0 +1,42 @@
+.library
+  display: flex
+  flex-direction: column
+  padding: 0 11px 0 15px
+
+  .input-wrap
+    width: 100%
+
+  &__btns
+    display: flex
+    justify-content: space-between
+
+  &__btn-filter
+    display: flex
+    border: 1px solid $color-grey-20
+    border-radius: 4px
+    padding: 12px 26px
+
+    span
+      margin-left: 8px
+      font-weight: 600
+      font-size: 15px
+      line-height: 16px
+
+  &__category
+    margin-top: 32px
+
+    &:last-child
+      margin-bottom: 40px
+
+  &__subtitle
+    font-weight: 600
+    font-size: 12px
+    line-height: 16px
+    letter-spacing: 0.1em
+    text-transform: uppercase
+    color: $color-grey-40
+
+  &__card-wrap
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between

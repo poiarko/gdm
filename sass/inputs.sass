@@ -1,5 +1,3 @@
-// Input
-
 .input-wrap
   display: flex
   flex-direction: column
@@ -10,46 +8,56 @@
   margin-bottom: 24px
   padding-left: 24px
   padding-right: 24px
-  background-color: #fff
-  border: 1px solid #E0E5E9
+  background-color: $color-white
+  border: 1px solid $color-grey-20
   border-radius: 3px
 
-  label
+  &__label
     font-weight: normal
     font-size: 14px
     line-height: 16px
-    color: #676874
+    color: $color-grey-50
 
-  .input
+  &__input
     font-size: 16px
     font-weight: 600
     line-height: 16px
-    color: #000333
+    color: $color-dark
     outline: none
 
-  &.flag
+  &-flag
+    @extend .input-wrap
     display: flex
     flex-direction: row
     align-items: center
 
-    .select-flag
+    &__select
       display: flex
       height: 100%
-      border-right: 1px solid #E0E5E9
+      border-right: 1px solid $color-grey-20
 
-    .input-number
+    &__number
       display: flex
       align-items: center
       padding-left: 24px
       width: 100%
       height: 100%
 
-  &.country
+  &-country
+    @extend .input-wrap
+    
     select
       font-size: 16px
       font-weight: 600
       line-height: 16px
-      color: #000333
       outline: none
       margin-left: -4px
-      // appearance: none
+
+  &_filter
+    margin-right: 0
+
+  &__input_filter
+    font-size: 15px
+    line-height: 16px
+    color: $color-grey-40
+

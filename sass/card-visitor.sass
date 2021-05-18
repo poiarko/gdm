@@ -6,11 +6,17 @@
   align-items: center
   width: 190px
   height: 174px
-  margin: 10px
-  background: #FFFFFF
-  border: 1px solid #E0E5E9
+  margin-right: 16px
+  background: $color-white
+  border: 1px solid $color-grey-20
   border-radius: 4px
   opacity: .5
+
+  &:nth-child(-n+4)
+    margin-bottom: 5px
+
+  &:nth-child(4n+4)
+    margin-right: 0
 
   .photo
     width: 60px
@@ -22,7 +28,7 @@
     font-weight: 600
     font-size: 16px
     line-height: 16px
-    color: #ACADB8
+    color: $color-grey-40
 
   .count
     margin-bottom: 16px
@@ -35,7 +41,7 @@
     font-weight: 600
     font-size: 12px
     line-height: 10px
-    color: #ACADB8
+    color: $color-grey-40
 
   .done-img
     position: absolute
@@ -44,7 +50,7 @@
     opacity: 0
 
   .percent-wrap
-    display: flex
+    display: none
     justify-content: center
     align-items: center
 
@@ -53,52 +59,58 @@
       font-weight: 600
       line-height: 10px
       margin-right: 5px
-      color: #00877B
+      color: $color-green
 
     .progress-bar
       width: 91px
       height: 3px
-      background: #E0E5E9
+      background: $color-grey-20
       border-radius: 10px
 
       .indicator
         width: 34%
         height: 100%
-        background-color: #fff
+        background-color: $color-white
         background: #66B7B0
         border-radius: 10px
 
-  &.completed
+  &_completed
     background: #F6F9F8
-    border: 1px solid #66B7B0
+    border: 1px solid $color-green-light
     opacity: .8
 
     .title
-      color: #676874
+      color: $color-grey-50
 
     .count
-      color: #676874
+      color: $color-grey-50
 
     .status
-      color: #00877B
+      color: $color-green
 
     .done-img
       opacity: 1
 
-  &.active
+  &_active
     width: 200px
     height: 184px
+    margin-top: -6px
+    margin-bottom: 27px
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1)
     opacity: 1
 
     .title
-      color: #000333
+      color: $color-dark
 
     .count
-      color: #676874
+      color: $color-grey-50
 
     .status
-      color: #00877B
+      display: none
+      color: $color-green
+
+    .percent-wrap
+      display: flex
 
     .done-img
-      opacity: 1
+      opacity: 0

@@ -1,53 +1,57 @@
-.content-inner
-  border: 1px solid #E0E5E9
+.dashboard-card-top
+  border: 1px solid $color-grey-20
   box-sizing: border-box
   box-shadow: 0px 10px 10px rgba(142, 142, 142, 0.05)
   border-radius: 4px
-  background-color: #fff
+  background-color: $color-white
 
-  .content-header
+  &__header
     display: flex
     align-items: center
     height: 70px
+    padding-left: 8px
     background: linear-gradient(90deg, #E3E9EE 0%, #F6F8FB 100.11%)
     border-radius: 2px
 
-    .header-circle
-      display: flex
-      justify-content: center
-      align-items: center
-      min-width: 56px
-      min-height: 56px
-      margin-left: 8px
-      margin-right: 12px
-      background: #EDF1F5
-      border-radius: 50%
+  &__circle
+    display: flex
+    justify-content: center
+    align-items: center
+    min-width: 56px
+    min-height: 56px
+    margin-right: 12px
+    background: #EDF1F5
+    border-radius: 50%
 
-    .header-title
-      margin-right: 41px
+  &__title
+    margin-right: 41px
 
-      p
-        font-size: 20px
-        font-weight: 600
-        line-height: 24px
+    p
+      font-size: 20px
+      font-weight: 600
+      line-height: 24px
+      color: $color-dark
 
-    .header-desc
-      max-width: 490px
-      margin-right: 30px
+  &__desc
+    max-width: 490px
+    margin-right: 30px
 
-      p
-        font-size: 16px
-        line-height: 20px
-        color: #676874
+    p
+      color: $color-grey-50
 
-  .content-interactive-wrap
+  &__interactive
     display: flex
     align-items: center
-    height: 129px
+    padding: 21px 16px 24px 14px
 
-    .interactive-inner
-      display: flex
-      align-items: center
+  &__inner
+    display: flex
+    align-items: center
+    flex: 1
 
-      .circle-more
-        margin: 0 16px
+  &__circle-more
+    margin-right: 16px
+    
+    &:last-child
+      margin-right: 0
+      margin-left: 16px

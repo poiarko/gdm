@@ -1,31 +1,23 @@
 .card
-  width: 100%
-  border: 1px solid #E0E5E9
+  max-width: 930px
+  border: 1px solid $color-grey-20
   border-radius: 4px
 
-  .header
+  &__header
     display: flex
     align-items: center
     height: 70px
     background: linear-gradient(90deg, #E3E9EE 0%, #F6F8FB 100.11%)
     border-radius: 2px
 
-    .title
-      margin-left: 55px
-      font-weight: 600
-      font-size: 20px
-      line-height: 24px
-      color: #000333
+  &__title
+    margin-left: 55px
+    font-weight: 600
+    font-size: 20px
+    line-height: 24px
+    color: $color-dark
 
-  .card-content
+  &__content
     width: 100%
-    padding: 40px 55px
-    background-color: #fff
-
-    &.px-38
-      padding-left: 38px
-      padding-right: 38px
-
-
-
-  
+    padding: 32px 45px 35px 40px
+    background-color: $color-white

@@ -1,0 +1,30 @@
+.tab-block
+  display: flex
+  max-width: 640px
+  border: 1px solid $color-grey-20
+  border-radius: 4px
+
+  &__item
+    display: flex
+    padding: 12px 22px
+    border-right: 1px solid $color-grey-20
+  
+    &:last-child
+      border-right: none
+
+    &_active
+      background: $color-grey-20
+      border-radius: 4px
+      border: none
+      margin: 0 -2px
+
+      p
+        font-weight: 700
+        color: $color-dark
+
+  &__text
+    font-weight: 600
+    font-size: 15px
+    line-height: 16px
+    color: $color-dark
+    
