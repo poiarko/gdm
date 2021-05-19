@@ -149,6 +149,9 @@ p {
     font-size: 18px;
     line-height: 16px;
     color: #676874; }
+  .sidebar__icon {
+    width: 16px;
+    height: 16px; }
 
 .card {
   max-width: 930px;
@@ -719,6 +722,34 @@ p {
     box-sizing: border-box;
     border-radius: 3px; }
 
+.video-wrap {
+  position: relative;
+  display: flex;
+  border: 1px solid #676874;
+  max-width: 830px;
+  max-height: 400px; }
+  .video-wrap__video {
+    width: 100%; }
+  .video-wrap__play {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .video-wrap__time {
+    position: absolute;
+    padding: 4px 8px;
+    background: rgba(0, 3, 51, 0.6);
+    border-radius: 2px;
+    right: 2px;
+    bottom: 2px;
+    color: #FFFFFF; }
+  .video-wrap__time-text {
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF; }
+
 .dashboard__card-bottom {
   display: flex;
   justify-content: space-between;
@@ -875,5 +906,8 @@ p {
     margin-bottom: 30px; }
     .help__text:last-child {
       margin-bottom: 0; }
+
+.tutorial {
+  padding-left: 15px; }
 
 /*# sourceMappingURL=style.css.map */
