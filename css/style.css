@@ -786,6 +786,31 @@ p {
     margin-top: 15px;
     justify-content: space-between; }
 
+.timer {
+  display: flex;
+  padding: 4px 4px 4px 20px;
+  border: 1px solid #E0E5E9;
+  border-radius: 6px; }
+  .timer__tilte {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #676874; }
+  .timer__block {
+    padding: 6px 12px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    background: #FFFFFF; }
+  .timer__block-item {
+    display: flex;
+    flex-direction: column; }
+  .timer__input {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000333; }
+
 .dashboard__card-bottom {
   display: flex;
   justify-content: space-between;
