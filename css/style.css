@@ -786,6 +786,49 @@ p {
     margin-top: 15px;
     justify-content: space-between; }
 
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 471px;
+  margin-bottom: 33px;
+  margin-top: -11px;
+  padding: 4px 4px 4px 20px;
+  border: 1px solid #E0E5E9;
+  border-radius: 6px; }
+  .timer__title {
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #676874; }
+  .timer__block {
+    display: flex;
+    padding: 6px 12px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    background: #FFFFFF; }
+  .timer__block-item {
+    display: flex;
+    flex-direction: column; }
+  .timer__time {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 1px;
+    color: #000333; }
+  .timer__text {
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #ACADB8; }
+  .timer__points {
+    margin: 0 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px; }
+
 .dashboard__card-bottom {
   display: flex;
   justify-content: space-between;
