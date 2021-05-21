@@ -1,0 +1,38 @@
+.survey
+  display: flex
+  flex-direction: column
+  margin-bottom: 56px
+
+  &:last-child
+    margin-bottom: 0
+  &__title
+    font-weight: 600
+    font-size: 20px
+    line-height: 24px
+    margin-bottom: 16px
+    color: $color-dark
+
+  &__item-wrap
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+
+  &__item
+    width: 383px
+    // max-width: 383px
+    margin-bottom: 16px
+    padding: 21px 0 19px 20px
+    border: 1px solid $color-green-light
+    border-radius: 10px
+    background: $color-white
+
+    &_active
+      background: $color-green-light
+
+      .survey__item-text
+        color: $color-white
+
+
+  &__item-text
+    color: $color-dark
+    
