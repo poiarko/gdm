@@ -173,6 +173,9 @@ p {
     width: 100%;
     padding: 32px 45px 35px 40px;
     background-color: #FFFFFF; }
+  .card__button {
+    margin-left: 55px;
+    border: 1px solid; }
 
 .dashboard-card-top {
   border: 1px solid #E0E5E9;
@@ -1052,6 +1055,17 @@ p {
   .speakers-single__text {
     margin-bottom: 30px;
     color: #000333; }
+
+.speakers-send {
+  padding: 10px 315px 70px 15px; }
+  .speakers-send__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 26px;
+    color: #000333; }
+  .speakers-send .input-wrap, .speakers-send .input-wrap-flag {
+    width: 100%; }
 
 .survey-wrap {
   display: flex;
