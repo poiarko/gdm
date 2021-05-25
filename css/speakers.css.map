@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,aAAa,EAAE,IAAI;EACnB,YAAY,EAAE,IAAI;EAElB,oBAAY;IACV,OAAO,EAAE,IAAI;IACb,eAAe,EAAE,aAAa;IAC9B,SAAS,EAAE,IAAI",
+"sources": ["../sass/speakers.sass"],
+"names": [],
+"file": "speakers.css"
+}

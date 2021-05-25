@@ -1,0 +1,10 @@
+.help {
+  padding-left: 15px; }
+  .help__subtitle {
+    margin-bottom: 10px; }
+  .help__text {
+    margin-bottom: 30px; }
+    .help__text:last-child {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=help.css.map */
