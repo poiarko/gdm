@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color-white".
-        on line 21 of /Users/artem/Desktop/dash/sass/login.sass
+        on line 24 of /Users/artem/Desktop/dash/sass/login.sass
 
-16:     max-width: 480px
-17:     font-weight: 600
-18:     font-size: 48px
-19:     line-height: 54px
-20:     margin-bottom: 85px
-21:     color: $color-white
-22: 
-23:   &__subtitle
-24:     max-width: 533px
-25:     font-size: 20px
-26:     line-height: 30px
+19:     font-weight: 600
+20:     font-size: 48px
+21:     line-height: 54px
+22:     padding-right: 10px
+23:     margin-bottom: 85px
+24:     color: $color-white
+25: 
+26:   &__subtitle
+27:     max-width: 533px
+28:     font-size: 20px
+29:     line-height: 30px
 
 Backtrace:
-/Users/artem/Desktop/dash/sass/login.sass:21
+/Users/artem/Desktop/dash/sass/login.sass:24
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-white\".\A         on line 21 of /Users/artem/Desktop/dash/sass/login.sass\A \A 16:     max-width: 480px\A 17:     font-weight: 600\A 18:     font-size: 48px\A 19:     line-height: 54px\A 20:     margin-bottom: 85px\A 21:     color: $color-white\A 22: \A 23:   &__subtitle\A 24:     max-width: 533px\A 25:     font-size: 20px\A 26:     line-height: 30px"; }
+  content: "Error: Undefined variable: \"$color-white\".\A         on line 24 of /Users/artem/Desktop/dash/sass/login.sass\A \A 19:     font-weight: 600\A 20:     font-size: 48px\A 21:     line-height: 54px\A 22:     padding-right: 10px\A 23:     margin-bottom: 85px\A 24:     color: $color-white\A 25: \A 26:   &__subtitle\A 27:     max-width: 533px\A 28:     font-size: 20px\A 29:     line-height: 30px"; }
