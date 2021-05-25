@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACP,YAAY,EAAE,IAAI",
+"sources": ["../sass/tutorial.sass"],
+"names": [],
+"file": "tutorial.css"
+}

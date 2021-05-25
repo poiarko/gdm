@@ -1,0 +1,65 @@
+/*
+Error: Undefined variable: "$color-dark".
+        on line 16 of /Users/artem/Desktop/dash/sass/base.sass
+
+11: body
+12:   font-family: 'Proxima Nova'
+13:   font-size: 16px
+14:   font-weight: 400
+15:   line-height: 1.6
+16:   color: $color-dark
+17:   background-color: $color-grey-10
+18: 
+19: h1
+20:   font-size: 23px
+21:   line-height: 28px
+
+Backtrace:
+/Users/artem/Desktop/dash/sass/base.sass:16
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$color-dark\".\A         on line 16 of /Users/artem/Desktop/dash/sass/base.sass\A \A 11: body\A 12:   font-family: 'Proxima Nova'\A 13:   font-size: 16px\A 14:   font-weight: 400\A 15:   line-height: 1.6\A 16:   color: $color-dark\A 17:   background-color: $color-grey-10\A 18: \A 19: h1\A 20:   font-size: 23px\A 21:   line-height: 28px"; }
