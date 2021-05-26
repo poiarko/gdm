@@ -1,24 +1,39 @@
 /*
-Error: Undefined variable: "$color-white".
-        on line 12 of /Users/artem/Desktop/dash/sass/btns.sass
+Error: Undefined variable: "$color-grey-20".
+        on line 11 of /Users/artem/Desktop/dash/sass/form.sass
 
-7:   vertical-align: middle
-8:   border-radius: 3px
-9: 
-10: .btn-primary
-11:   padding: 10px 23px
-12:   color: $color-white
-13:   background: $color-green
-14:   
-15:   &__text
-16:     font-size: 15px
-17:     font-weight: 600
+6:     align-items: center
+7:     width: 100%
+8:     padding-left: 24px
+9:     padding: 16px 0 16px 24px
+10:     margin-bottom: 20px
+11:     border: 1px solid $color-grey-20
+12:     border-radius: 3px
+13:     background-color: $color-white
+14: 
+15:   &__icon
+16:     max-width: 16px
 
 Backtrace:
-/Users/artem/Desktop/dash/sass/btns.sass:12
+/Users/artem/Desktop/dash/sass/form.sass:11
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -62,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-white\".\A         on line 12 of /Users/artem/Desktop/dash/sass/btns.sass\A \A 7:   vertical-align: middle\A 8:   border-radius: 3px\A 9: \A 10: .btn-primary\A 11:   padding: 10px 23px\A 12:   color: $color-white\A 13:   background: $color-green\A 14:   \A 15:   &__text\A 16:     font-size: 15px\A 17:     font-weight: 600"; }
+  content: "Error: Undefined variable: \"$color-grey-20\".\A         on line 11 of /Users/artem/Desktop/dash/sass/form.sass\A \A 6:     align-items: center\A 7:     width: 100%\A 8:     padding-left: 24px\A 9:     padding: 16px 0 16px 24px\A 10:     margin-bottom: 20px\A 11:     border: 1px solid $color-grey-20\A 12:     border-radius: 3px\A 13:     background-color: $color-white\A 14: \A 15:   &__icon\A 16:     max-width: 16px"; }
