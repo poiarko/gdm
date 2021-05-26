@@ -1,22 +1,26 @@
 /*
-Error: Undefined variable: "$color-dark".
-        on line 10 of /Users/artem/Desktop/dash/sass/login.sass
+Error: Undefined variable: "$color-grey-20".
+        on line 11 of /Users/artem/Desktop/dash/sass/form.sass
 
-5:     padding-top: 40px
-6:     font-weight: 600
-7:     font-size: 20px
-8:     line-height: 24px
-9:     text-align: center
-10:     color: $color-dark
-11: 
-12:   &__form
-13:     padding: 24px 50px 30px 50px
+6:     align-items: center
+7:     width: 100%
+8:     padding-left: 24px
+9:     padding: 16px 0 16px 24px
+10:     margin-bottom: 20px
+11:     border: 1px solid $color-grey-20
+12:     border-radius: 3px
+13:     background-color: $color-white
 14: 
-15:   &__form-input-wrap
+15:   &__icon
+16:     max-width: 16px
 
 Backtrace:
-/Users/artem/Desktop/dash/sass/login.sass:10
+/Users/artem/Desktop/dash/sass/form.sass:11
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -73,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-dark\".\A         on line 10 of /Users/artem/Desktop/dash/sass/login.sass\A \A 5:     padding-top: 40px\A 6:     font-weight: 600\A 7:     font-size: 20px\A 8:     line-height: 24px\A 9:     text-align: center\A 10:     color: $color-dark\A 11: \A 12:   &__form\A 13:     padding: 24px 50px 30px 50px\A 14: \A 15:   &__form-input-wrap"; }
+  content: "Error: Undefined variable: \"$color-grey-20\".\A         on line 11 of /Users/artem/Desktop/dash/sass/form.sass\A \A 6:     align-items: center\A 7:     width: 100%\A 8:     padding-left: 24px\A 9:     padding: 16px 0 16px 24px\A 10:     margin-bottom: 20px\A 11:     border: 1px solid $color-grey-20\A 12:     border-radius: 3px\A 13:     background-color: $color-white\A 14: \A 15:   &__icon\A 16:     max-width: 16px"; }
