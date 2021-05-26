@@ -1,45 +1,49 @@
 .login
-  display: flex
-  justify-content: space-between
-  align-items: center
-  height: 100%
-  margin-right: 120px
-  padding-left: 91px
-  padding: 117px 0 73px 91px
-  background: url('../img/login-bg.svg')
-  background-repeat: no-repeat
-  border-radius: 10px
-  background-size: cover
-
-  &__logo
-    max-width: 201px
-    margin-bottom: 52px
+  padding: 10px
 
   &__title
+    padding-top: 40px
     font-weight: 600
-    font-size: 48px
-    line-height: 54px
-    padding-right: 10px
-    margin-bottom: 85px
-    color: $color-white
-
-  &__subtitle
-    max-width: 533px
     font-size: 20px
-    line-height: 30px
-    padding-right: 10px
-    color: $color-white
+    line-height: 24px
+    text-align: center
+    color: $color-dark
 
-  &__form-wrap
-    padding: 10px
-    max-width: 450px
+  &__form
+    padding: 24px 50px 30px 50px
+
+  &__form-input-wrap
+    display: flex
+    align-items: center
+    padding: 16px 0 16px 24px
+    margin-bottom: 20px
+    border: 1px solid $color-grey-20
+    border-radius: 3px
+
+  &__form-icon
+    max-width: 16px
+    max-height: 16px
+
+  &__form-input
+    margin-left: 16px
+    outline: none
+
+  &__form-additional
+    display: flex
+    justify-content: space-between
+    margin-bottom: 40px
+
+  &__form-forgot-pass-text
+    font-weight: 600
+    font-size: 15px
+    line-height: 16px
+    color: $color-grey-50
+
+  &__form-btn
     width: 100%
-    margin-right: -120px
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05)
-    border-radius: 10px
-    background: $color-white
+    padding: 16px 0
 
-  &__get-app
+  &__buttons
     display: flex
     flex-direction: column
     align-items: center
@@ -47,18 +51,19 @@
     background: $color-grey-5
     border-radius: 6px
 
-  &__get-app-title
+  &__buttons-title
     font-weight: 600
     font-size: 20px
     line-height: 24px
     margin-bottom: 20px
     color: $color-dark
 
-  &__get-app-block
+  &__buttons-block
     display: flex
     justify-content: space-between
     width: 100%
 
-  &__get-app-btn
+  &__buttons-btn
     max-width: 128px
     max-height: 40px
+    margin-right: 10px

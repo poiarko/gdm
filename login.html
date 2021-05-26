@@ -13,71 +13,78 @@
 
 <body>
 
-  <div class="unautorize-layout">
+  <div class="unauthorize-layout">
     
-    <div class="login">
+    <div class="unauthorize-layout__wrap">
       
-      <div class="login__content">
-        <div class="login__logo">
+      <div class="unauthorize-layout__content">
+        <div class="unauthorize-layout__logo">
           <img src="./img/logo-login.svg" alt="" />
         </div>
 
-        <p class="login__title">
+        <p class="unauthorize-layout__title">
           Welcome to Gulf Diabetes Masterclass
         </p>
 
-        <p class="login__subtitle">
+        <p class="unauthorize-layout__subtitle">
           Your continuous medical education portal of healthcare professionals around Diabetes & it’s Co-morbidities.
         </p>
       </div>
 
-      <div class="login__form-wrap">
+      <div class="unauthorize-layout__form-wrap">
+        
 
-        <!-- Login form-->
+        <!-- Login Form-->
 
-        <form class="login-form" action="">
-          <p class="login-form__title">Log in</p>
+        <div class="login">
+          <p class="login__title">Log in</p>
 
-          <div class="login-form__input-wrap">
-            <img class="login-form__icon" src="./img/email-login.svg" alt="" />
-            <input class="login-form__input" type="text" placeholder="Email">
-          </div>
-
-          <div class="login-form__input-wrap">
-            <img class="login-form__icon" src="./img/pass-login.svg" alt="" />
-            <input class="login-form__input" type="text" placeholder="Password">
-          </div>
-
-          <div class="login-form__additional">
-            <div class="login-form__checkbox-block">
-              <input type="checkbox" id="checkbox">
-              <label for="checkbox">Remember me</label>
+          <form class="login__form" action="">
+          
+            <div class="login__form-input-wrap">
+              <img class="login__form-icon" src="./img/email-login.svg" alt="" />
+              <input class="login__form-input" type="text" placeholder="Email">
             </div>
-
-            <div class="login-form__forgot-pass">
-              <a class="login-form__forgot-pass-text">Forgot Password?</a>
+  
+            <div class="login__form-input-wrap">
+              <img class="login__form-icon" src="./img/pass-login.svg" alt="" />
+              <input class="login__form-input" type="text" placeholder="Password">
             </div>
-          </div>
-
-          <button class="btn-primary btn-primary_xl">
-            <span class="btn-primary__text">Login</span>
-          </button>
-
-        </form>
-
-        <div class="login__get-app">
-          <p class="login__get-app-title">
-            Get the app
-          </p>
-          <div class="login__get-app-block">
-            <div class="login__get-app-btn">
-              <img src="./img/google-play-btn.svg" alt="" />
+  
+            <div class="login__form-additional">
+              <div class="login__form-checkbox-block">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">Remember me</label>
+              </div>
+  
+              <div class="login__form-forgot-pass">
+                <a class="login__form-forgot-pass-text">Forgot Password?</a>
+              </div>
             </div>
-            <div class="login__get-app-btn">
-              <img src="./img/app-store-btn.svg" alt="" />
+  
+            <button class="btn btn-primary login__form-btn">
+              Login
+            </button>
+  
+          </form>
+
+          <div class="login__buttons">
+            <p class="login__buttons-title">
+              Get the app
+            </p>
+            <div class="login__buttons-block">
+              <div class="login__buttons-btn">
+                <img src="./img/google-play-btn.svg" alt="" />
+              </div>
+              <div class="login__buttons-btn">
+                <img src="./img/app-store-btn.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
+        
+
+        
       </div>
 
 
