@@ -43,10 +43,70 @@ p {
 .authorize-layout__content-block {
   max-width: 930px; }
 
-.unautorize-layout {
+.unauthorize-layout {
   padding: 32px 135px 32px 44px;
   height: 100vh;
   background: #E5E5E5; }
+  .unauthorize-layout__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-right: 120px;
+    padding-left: 91px;
+    padding: 117px 0 73px 91px;
+    background: url("../img/login-bg.svg");
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover; }
+  .unauthorize-layout__content {
+    display: flex;
+    flex-direction: column; }
+  .unauthorize-layout__logo {
+    max-width: 201px;
+    margin-bottom: 52px; }
+  .unauthorize-layout__title {
+    max-width: 480px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    padding-right: 10px;
+    margin-bottom: 85px;
+    color: #FFFFFF; }
+  .unauthorize-layout__subtitle {
+    max-width: 533px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 10px;
+    color: #FFFFFF; }
+  .unauthorize-layout__form-wrap {
+    padding: 10px;
+    max-width: 450px;
+    width: 100%;
+    margin-right: -120px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    background: #FFFFFF; }
+  .unauthorize-layout__get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 82px 24px 82px;
+    background: #F7F8FA;
+    border-radius: 6px; }
+  .unauthorize-layout__get-app-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: #000333; }
+  .unauthorize-layout__get-app-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .unauthorize-layout__get-app-btn {
+    max-width: 128px;
+    max-height: 40px; }
 
 .header {
   display: flex;
@@ -484,12 +544,19 @@ p {
     display: flex;
     margin-top: 5px; }
 
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  vertical-align: middle;
+  border-radius: 3px; }
+
 .btn-primary {
-  display: flex;
-  background: #00877B;
-  border-radius: 3px;
-  padding: 10px 24px;
-  justify-content: center; }
+  padding: 10px 23px;
+  color: #FFFFFF;
+  background: #00877B; }
   .btn-primary__text {
     font-size: 15px;
     font-weight: 600;
@@ -582,6 +649,10 @@ p {
   .btn-ask_lg {
     width: 194px;
     height: 47px; }
+
+.btn-login {
+  width: 100%;
+  padding: 16px 0; }
 
 .tab-block {
   display: flex;
@@ -1141,62 +1212,5 @@ p {
     border-radius: 4px;
     outline: none;
     resize: none; }
-
-.login {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  margin-right: 120px;
-  padding-left: 91px;
-  padding: 117px 0 73px 91px;
-  background: url("../img/login-bg.svg");
-  background-repeat: no-repeat;
-  border-radius: 10px;
-  background-size: cover; }
-  .login__logo {
-    max-width: 201px;
-    margin-bottom: 52px; }
-  .login__title {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 54px;
-    padding-right: 10px;
-    margin-bottom: 85px;
-    color: #FFFFFF; }
-  .login__subtitle {
-    max-width: 533px;
-    font-size: 20px;
-    line-height: 30px;
-    padding-right: 10px;
-    color: #FFFFFF; }
-  .login__form-wrap {
-    padding: 10px;
-    max-width: 450px;
-    width: 100%;
-    margin-right: -120px;
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
-    background: #FFFFFF; }
-  .login__get-app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 82px 24px 82px;
-    background: #F7F8FA;
-    border-radius: 6px; }
-  .login__get-app-title {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 20px;
-    color: #000333; }
-  .login__get-app-block {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; }
-  .login__get-app-btn {
-    max-width: 128px;
-    max-height: 40px; }
 
 /*# sourceMappingURL=style.css.map */
