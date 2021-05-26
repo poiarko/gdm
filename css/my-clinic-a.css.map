@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAY;EACV,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,YAAY",
-"sources": ["../sass/my-clinic-a.sass"],
-"names": [],
-"file": "my-clinic-a.css"
-}
