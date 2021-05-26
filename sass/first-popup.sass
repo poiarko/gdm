@@ -1,0 +1,66 @@
+.popup
+  position: absolute
+  display: flex
+  flex-direction: column
+  max-width: 1170px
+  width: 100%
+  border-radius: 8px
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  background: $color-white
+
+  &__header
+    position: relative
+    display: flex
+    align-items: center
+    height: 150px
+    padding-left: 120px
+    padding-right: 50px
+
+  &__logo
+    max-width: 130px
+    max-height: 50px
+
+  &__header-text
+    display: flex
+    flex-direction: column
+    margin-left: 32px
+
+  &__title
+    font-weight: 600
+    font-size: 24px
+    line-height: 24px
+    margin-bottom: 5px
+    color: $color-dark
+
+  &__close-btn
+    position: absolute
+    width: 16px
+    height: 16px
+    right: 20px
+    top: 20px
+
+  &__content
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 86px 76px 150px 120px
+    background: $color-grey-10
+
+  &__content-block
+    display: flex
+    flex-direction: column
+
+  &__content-subtitle
+    font-size: 12px
+    line-height: 12px
+    margin-bottom: 10px
+    letter-spacing: 0.05em
+    text-transform: uppercase
+
+  &__content-text
+    max-width: 440px
+    padding-top: 13px
+    padding-right: 20px
+    color: $color-dark
