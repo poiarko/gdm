@@ -207,19 +207,10 @@ p {
     height: 70px;
     background: linear-gradient(90deg, #E3E9EE 0%, #F6F8FB 100.11%);
     border-radius: 2px; }
-  .card__title {
-    margin-left: 55px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000333; }
   .card__content {
     width: 100%;
     padding: 32px 45px 35px 40px;
     background-color: #FFFFFF; }
-  .card__button {
-    margin-left: 55px;
-    border: 1px solid; }
 
 .dashboard-card-top {
   border: 1px solid #E0E5E9;
@@ -531,50 +522,28 @@ p {
   line-height: 16px;
   vertical-align: middle;
   border-radius: 3px; }
-
-.btn-primary {
-  padding: 10px 23px;
-  color: #FFFFFF;
-  background: #00877B; }
-  .btn-primary__text {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 16px;
-    color: #FFFFFF; }
-  .btn-primary_lg {
-    padding: 16px 50px; }
-  .btn-primary__arrow {
+  .btn-sm {
+    padding: 12px 28px; }
+  .btn-md {
+    padding: 16px 30px; }
+  .btn-lg {
+    padding: 16px 60px; }
+  .btn-primary {
+    color: #FFFFFF;
+    background: #00877B; }
+  .btn-secondary {
     display: flex;
     align-items: center;
-    width: 16px;
-    height: 16px;
-    margin-left: 16px; }
-  .btn-primary_xl {
-    width: 100%; }
-
-.btn-secondary {
-  display: flex;
-  align-items: center;
-  padding: 12px 28px;
-  border: 1px solid #E0E5E9;
-  border-radius: 3px;
-  background: #FFFFFF; }
-  .btn-secondary__text {
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 16px;
-    margin-right: 16px;
-    white-space: nowrap;
-    color: #247BFD; }
-  .btn-secondary__arrow {
-    width: 16px;
-    height: 16px; }
-  .btn-secondary_full {
-    width: 100%;
-    justify-content: center; }
-  .btn-secondary_lg {
-    width: 320px;
-    height: 48px; }
+    color: #247BFD;
+    background: #FFFFFF; }
+  .btn-transparent {
+    background-color: transparent; }
+  .btn-border-blue {
+    border: 1px solid #247BFD; }
+  .btn-arrow-left__icon {
+    margin-right: 8px; }
+  .btn-arrow-left path {
+    stroke: #247BFD; }
 
 .btn-secondary-2 {
   display: flex;
@@ -953,6 +922,43 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding: 16px 6px 0 0; }
+
+.clinic-single-video .btn-top-header {
+  margin-left: 24px; }
+.clinic-single-video .btn-bottom {
+  margin-right: 24px; }
+.clinic-single-video__title {
+  margin-left: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000333; }
+.clinic-single-video__subtitle {
+  margin-left: 8px;
+  line-height: 16px; }
+.clinic-single-video__content {
+  padding: 8px 0 5px 15px; }
+.clinic-single-video__card-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 45px 40px 55px;
+  border-top: 1px solid #E0E5E9;
+  background: #FFFFFF; }
+.clinic-single-video__info {
+  display: flex;
+  align-items: center; }
+.clinic-single-video__profile {
+  margin-left: 16px; }
+.clinic-single-video__profile-title {
+  font-weight: 600;
+  line-height: 16px;
+  color: #000333;
+  margin-bottom: 8px; }
+.clinic-single-video__profile-subtitle {
+  font-size: 12px;
+  line-height: 12px; }
+.clinic-single-video__buttons {
+  display: flex; }
 
 .library {
   display: flex;
