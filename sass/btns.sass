@@ -7,11 +7,39 @@
   vertical-align: middle
   border-radius: 3px
 
-.btn-primary
-  padding: 10px 23px
-  color: $color-white
-  background: $color-green
-  
+  &-sm
+    padding: 12px 28px
+
+  &-md
+    padding: 16px 30px
+
+  &-lg
+    padding: 16px 60px
+
+  &-primary
+    color: $color-white
+    background: $color-green
+
+  &-secondary
+    display: flex
+    align-items: center
+    color: $color-blue
+    background: $color-white
+
+  &-transparent
+    background-color: transparent
+
+  &-border-blue
+    border: 1px solid $color-blue
+
+  &-arrow-left
+    &__icon
+      margin-right: 8px
+
+    path
+      stroke: $color-blue
+
+// Todo: buttons
   &__text
     font-size: 15px
     font-weight: 600
@@ -32,14 +60,6 @@
     width: 100%
 
 // Todo: edit btn-secondary (padding)
-
-.btn-secondary
-  display: flex
-  align-items: center
-  padding: 12px 28px
-  border: 1px solid $color-grey-20
-  border-radius: 3px
-  background: $color-white
 
   &__text
     font-size: 15px
@@ -119,4 +139,3 @@
   &_lg
     width: 194px
     height: 47px
-
