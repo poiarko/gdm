@@ -319,64 +319,218 @@
           <div class="authorize-layout__content-block">
 
             <!-- Page -->
-            <div class="clinic-single-video">
+            <div class="clinic-single-chart">
               <div class="card">
 
                 <div class="card__header">
-                  <div class="clinic-single-video__card-header-inner">
 
-                    <div class="clinic-single-video__card-header-inner-left">
-                      <button class="btn btn-sm btn-secondary btn-transparent btn-border-blue clinic-single-video__btn-top-header btn-arrow-left">
-                        <svg class="btn-arrow-left__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10 4L6 8L10 12" stroke="#247BFD"/>
-                          </svg>
-                        Back
-                      </button>
-    
-                      <p class="clinic-single-video__title">Andy Bommel</p>
-                      <p class="clinic-single-video__subtitle">Visit 2</p>
-                    </div>
-  
-                    <div class="clinic-single-video__card-header-inner-right">
-                      *
-                    </div>
+                  <button
+                    class="btn btn-sm btn-secondary btn-transparent btn-border-blue clinic-single-chart__btn-top-header btn-arrow-left">
+                    <svg class="btn-arrow-left__icon" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10 4L6 8L10 12" stroke="#247BFD" />
+                    </svg>
+                    Back
+                  </button>
 
-                  </div>
-
+                  <p class="clinic-single-chart__title">Andy Bommel</p>
                 </div>
 
                 <div class="card__content">
 
-                  <div class="clinic-single-video__content">
-
-                    <div class="video-wrap">
-                      <video class="video-wrap__video" src="" poster=""></video>
-                      <img class="video-wrap__play" src="./img/play-video-big.svg" alt="" />
-                      <div class="video-wrap__time">
-                        <p class="video-wrap__time-text">18:28</p>
+                  <div class="clinic-single-chart__content">
+                    <div class="clinic-single-chart__chart-wrap">
+                      <div class="clinic-single-chart__profile">
+                        <img src="./img/chart-man.svg" alt="" />
+                        <p class="clinic-single-chart__profile-title">Andy Bommel</p>
+                        <p class="clinic-single-chart__profile-subtitle"> 1 out of 3 visits</p>
                       </div>
+
+                      <!-- Chart Item -->
+
+                      <div class="chart-item chart-item_completed">
+                        <div class="chart-item__ellipse-wrap">
+                          <div class="chart-item__ellipse">
+
+                            <img class="chart-item__done-icon" src="./img/chart-done.svg" alt="" />
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <circle class="chart-item__info-circle" cx="16" cy="16" r="14.5" stroke="#66B7B0" />
+                              <path class="chart-item__info-circle-symbol"
+                                d="M18.4023 21.9355L18.2559 22.5605C17.6569 22.8014 17.1784 22.9674 16.8203 23.0586C16.4622 23.1562 16.1562 23.2051 15.9023 23.2051C15.3815 23.2051 14.9909 23.0716 14.7305 22.8047C14.4701 22.5312 14.3398 22.196 14.3398 21.7988C14.3398 21.6491 14.3529 21.4928 14.3789 21.3301C14.4049 21.1673 14.4473 20.9622 14.5059 20.7148L15.541 16.5645C15.5931 16.3366 15.6419 16.0924 15.6875 15.832C15.7396 15.5716 15.7656 15.3503 15.7656 15.168C15.7656 14.8034 15.7038 14.5625 15.5801 14.4453C15.4629 14.3216 15.2188 14.2598 14.8477 14.2598C14.7044 14.2598 14.5124 14.2826 14.2715 14.3281C14.0371 14.3737 13.8581 14.4128 13.7344 14.4453L13.8809 13.8203C14.3887 13.5924 14.8444 13.4232 15.248 13.3125C15.6517 13.2018 15.9707 13.1465 16.2051 13.1465C16.7389 13.1465 17.1263 13.2734 17.3672 13.5273C17.6081 13.7812 17.7285 14.123 17.7285 14.5527C17.7285 14.6699 17.7155 14.8294 17.6895 15.0312C17.6634 15.2331 17.6243 15.4349 17.5723 15.6367L16.5273 19.7871C16.4622 20.041 16.4036 20.2917 16.3516 20.5391C16.306 20.7799 16.2832 20.9785 16.2832 21.1348C16.2832 21.5059 16.3646 21.7598 16.5273 21.8965C16.6966 22.0332 16.9668 22.1016 17.3379 22.1016C17.4616 22.1016 17.6374 22.0853 17.8652 22.0527C18.0996 22.0202 18.2786 21.9811 18.4023 21.9355ZM19.0957 9.45508C19.0957 9.82617 18.9753 10.1517 18.7344 10.4316C18.4935 10.7051 18.194 10.8418 17.8359 10.8418C17.5039 10.8418 17.2174 10.7116 16.9766 10.4512C16.7357 10.1842 16.6152 9.88151 16.6152 9.54297C16.6152 9.1849 16.7357 8.8724 16.9766 8.60547C17.2174 8.33854 17.5039 8.20508 17.8359 8.20508C18.207 8.20508 18.5098 8.33203 18.7441 8.58594C18.9785 8.83333 19.0957 9.12305 19.0957 9.45508Z"
+                                fill="#00877B" />
+                            </svg>
+
+                          </div>
+                        </div>
+
+                        <p class="chart-item__text">Know Your Patient</p>
+                      </div>
+
+                      <div class="chart-item chart-item_completed">
+                        <div class="chart-item__ellipse-wrap">
+                          <div class="chart-item__ellipse">
+
+                            <img class="chart-item__done-icon" src="./img/chart-done.svg" alt="" />
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M2.55316 20.9681C2.55316 11.0258 10.5318 2.86798 20.4253 2.54932V0C9.06371 0.318665 0 9.62367 0 20.9681C0 24.4734 0.893605 27.9788 2.61699 31.0379L4.78717 29.6995C3.3191 27.0228 2.55316 24.0273 2.55316 20.9681Z"
+                                fill="#E0E5E9" />
+                              <path
+                                d="M20.9998 39.4506C14.6807 39.4506 8.74466 36.2003 5.42555 30.8467L3.25537 32.1851C7.08511 38.2397 13.851 42 21.0636 42C28.2763 42 35.0422 38.2397 38.8719 32.1214L36.7017 30.783C33.255 36.1365 27.3827 39.4506 20.9998 39.4506Z"
+                                fill="#E0E5E9" />
+                              <path class="chart-item__sector-segment-active"
+                                d="M39.5104 20.9681C39.5104 24.0273 38.7445 27.0228 37.2764 29.6995L39.4466 31.0379C41.1061 27.9788 41.9997 24.5372 41.9997 21.0319C42.0636 9.62367 32.9999 0.318665 21.7021 0V2.54932C31.5318 2.86798 39.5104 11.0258 39.5104 20.9681Z"
+                                fill="#66B7B0" />
+                              <path
+                                d="M18.6258 25.168C21.1738 25.168 22.1958 22.606 22.1958 20.338C22.1958 18.056 21.1738 15.522 18.6258 15.522C16.0638 15.522 15.0558 18.056 15.0558 20.338C15.0558 22.606 16.0638 25.168 18.6258 25.168ZM18.6258 24.132C16.8478 24.132 16.2458 22.2 16.2458 20.338C16.2458 18.476 16.8478 16.558 18.6258 16.558C20.4038 16.558 21.0058 18.476 21.0058 20.338C21.0058 22.2 20.4038 24.132 18.6258 24.132ZM26.5681 25V15.662H25.5461L23.2081 18.07L23.9081 18.784L25.4061 17.202V25H26.5681Z"
+                                fill="#ACADB8" />
+                            </svg>
+
+                          </div>
+                        </div>
+
+                        <p class="chart-item__text">Visit 1</p>
+                      </div>
+
+                      <div class="chart-item chart-item_active">
+                        <div class="chart-item__ellipse-wrap">
+                          <div class="chart-item__ellipse">
+
+                            <img class="chart-item__done-icon" src="./img/chart-done.svg" alt="" />
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M2.55316 20.9681C2.55316 11.0258 10.5318 2.86798 20.4253 2.54932V0C9.06371 0.318665 0 9.62367 0 20.9681C0 24.4734 0.893605 27.9788 2.61699 31.0379L4.78717 29.6995C3.3191 27.0228 2.55316 24.0273 2.55316 20.9681Z"
+                                fill="#E0E5E9" />
+                              <path class="chart-item__sector-segment-active"
+                                d="M20.9998 39.4506C14.6807 39.4506 8.74466 36.2003 5.42555 30.8467L3.25537 32.1851C7.08511 38.2397 13.851 42 21.0636 42C28.2763 42 35.0422 38.2397 38.8719 32.1214L36.7017 30.783C33.255 36.1365 27.3827 39.4506 20.9998 39.4506Z"
+                                fill="#ACADB8" />
+                              <path
+                                d="M39.5104 20.9681C39.5104 24.0273 38.7445 27.0228 37.2764 29.6995L39.4466 31.0379C41.1061 27.9788 41.9997 24.5372 41.9997 21.0319C42.0636 9.62367 32.9999 0.318665 21.7021 0V2.54932C31.5318 2.86798 39.5104 11.0258 39.5104 20.9681Z"
+                                fill="#E0E5E9" />
+                              <path
+                                d="M17.3826 25.168C19.9306 25.168 20.9526 22.606 20.9526 20.338C20.9526 18.056 19.9306 15.522 17.3826 15.522C14.8206 15.522 13.8126 18.056 13.8126 20.338C13.8126 22.606 14.8206 25.168 17.3826 25.168ZM17.3826 24.132C15.6046 24.132 15.0026 22.2 15.0026 20.338C15.0026 18.476 15.6046 16.558 17.3826 16.558C19.1606 16.558 19.7626 18.476 19.7626 20.338C19.7626 22.2 19.1606 24.132 17.3826 24.132ZM28.8389 25V23.964H24.2609C26.8649 21.906 28.7969 20.17 28.7969 18.266C28.7969 16.404 27.2149 15.522 25.6609 15.522C24.3449 15.522 23.1269 16.054 22.4129 16.992L23.1269 17.734C23.6729 17.034 24.5409 16.558 25.6609 16.558C26.6269 16.558 27.6069 17.076 27.6069 18.266C27.6069 19.876 25.7869 21.43 22.4269 24.076V25H28.8389Z"
+                                fill="#ACADB8" />
+                            </svg>
+
+
+                          </div>
+                        </div>
+
+                        <p class="chart-item__text">Visit 2</p>
+                      </div>
+
+                      <div class="chart-item">
+                        <div class="chart-item__ellipse-wrap">
+                          <div class="chart-item__ellipse">
+
+                            <img class="chart-item__done-icon" src="./img/chart-done.svg" alt="" />
+                            <svg width="42" height="42" viewBox="0 0 42 42" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path class="chart-item__sector-segment-active"
+                                d="M2.55316 20.9681C2.55316 11.0258 10.5318 2.86798 20.4253 2.54932V0C9.06371 0.318665 0 9.62367 0 20.9681C0 24.4734 0.893605 27.9788 2.61699 31.0379L4.78717 29.6995C3.3191 27.0228 2.55316 24.0273 2.55316 20.9681Z"
+                                fill="#ACADB8" />
+                              <path
+                                d="M20.9998 39.4506C14.6807 39.4506 8.74466 36.2003 5.42555 30.8467L3.25537 32.1851C7.08511 38.2397 13.851 42 21.0636 42C28.2763 42 35.0422 38.2397 38.8719 32.1214L36.7017 30.783C33.255 36.1365 27.3827 39.4506 20.9998 39.4506Z"
+                                fill="#E0E5E9" />
+                              <path
+                                d="M39.5104 20.9681C39.5104 24.0273 38.7445 27.0228 37.2764 29.6995L39.4466 31.0379C41.1061 27.9788 41.9997 24.5372 41.9997 21.0319C42.0636 9.62367 32.9999 0.318665 21.7021 0V2.54932C31.5318 2.86798 39.5104 11.0258 39.5104 20.9681Z"
+                                fill="#E0E5E9" />
+                              <path
+                                d="M18.6014 25.168C21.1494 25.168 22.1714 22.606 22.1714 20.338C22.1714 18.056 21.1494 15.522 18.6014 15.522C16.0394 15.522 15.0314 18.056 15.0314 20.338C15.0314 22.606 16.0394 25.168 18.6014 25.168ZM18.6014 24.132C16.8234 24.132 16.2214 22.2 16.2214 20.338C16.2214 18.476 16.8234 16.558 18.6014 16.558C20.3794 16.558 20.9814 18.476 20.9814 20.338C20.9814 22.2 20.3794 24.132 18.6014 24.132ZM26.6136 25.168C28.6716 25.168 29.9176 24.034 29.9176 22.48C29.9176 20.982 28.6156 20.254 27.7616 20.184C28.6436 20.03 29.7776 19.358 29.7776 18.014C29.7776 16.432 28.4056 15.522 26.6136 15.522C25.1716 15.522 24.0936 16.152 23.4216 16.964L24.0656 17.692C24.7516 16.95 25.5076 16.558 26.5296 16.558C27.6636 16.558 28.6156 17.118 28.6156 18.154C28.6156 19.232 27.6216 19.694 26.4456 19.694C26.0676 19.694 25.6336 19.694 25.4796 19.68V20.744C25.6196 20.73 26.0536 20.73 26.4456 20.73C27.8176 20.73 28.7696 21.22 28.7696 22.382C28.7696 23.46 27.9436 24.132 26.5856 24.132C25.4796 24.132 24.5276 23.628 23.9816 22.9L23.2956 23.628C23.8696 24.468 25.0316 25.168 26.6136 25.168Z"
+                                fill="#ACADB8" />
+                            </svg>
+
+
+                          </div>
+                        </div>
+
+                        <p class="chart-item__text">Visit 3</p>
+                      </div>
+
+                      <div class="chart-item">
+                        <div class="chart-item__ellipse-wrap">
+                          <div class="chart-item__ellipse">
+
+                            <img class="chart-item__done-icon" src="./img/chart-done.svg" alt="" />
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path class="chart-item__svg-play" d="M22.5 12L5.625 21.7428L5.625 2.25721L22.5 12Z" stroke="#ACADB8" stroke-width="2"
+                                stroke-linejoin="round" />
+                            </svg>
+
+
+
+                          </div>
+                        </div>
+
+                        <p class="chart-item__text">Commentary Video</p>
+                      </div>
+
                     </div>
+
+                    
+                    <div class="clinic-single-chart__text-wrap">
+
+                      <!-- Text Item -->
+
+                      <div class="clinic-single-chart__text-wrap-item clinic-single-chart__text-wrap-item_completed">
+                        <p class="clinic-single-chart__text-wrap-item-title">
+                          Know Your Patient
+                        </p>
+                        <p class="clinic-single-chart__text-wrap-item-desc">
+                          Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                        </p>
+                      </div>
+
+                      <div class="clinic-single-chart__text-wrap-item clinic-single-chart__text-wrap-item_completed">
+                        <p class="clinic-single-chart__text-wrap-item-title">
+                          Visit 1
+                        </p>
+                        <p class="clinic-single-chart__text-wrap-item-desc">
+                          Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                        </p>
+                      </div>
+
+                      <div class="clinic-single-chart__text-wrap-item clinic-single-chart__text-wrap-item_active">
+                        <p class="clinic-single-chart__text-wrap-item-title">
+                          Visit 2
+                        </p>
+                        <p class="clinic-single-chart__text-wrap-item-desc">
+                          Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                        </p>
+                      </div>
+
+                      <div class="clinic-single-chart__text-wrap-item">
+                        <p class="clinic-single-chart__text-wrap-item-title">
+                          Visit 3
+                        </p>
+                        <p class="clinic-single-chart__text-wrap-item-desc">
+                          Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                        </p>
+                      </div>
+
+                      <div class="clinic-single-chart__text-wrap-item">
+                        <p class="clinic-single-chart__text-wrap-item-title">
+                          Commentary Video
+                        </p>
+                        <p class="clinic-single-chart__text-wrap-item-desc">
+                          Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.
+                        </p>
+                      </div>
+
+                    </div>
+                    
+
+
 
                   </div>
 
                 </div>
 
-                <div class="clinic-single-video__card-bottom">
-                  <div class="clinic-single-video__info">
-                    <img src="./img/clinic-c-avatar.svg" alt="" />
 
-                    <div class="clinic-single-video__profile">
-                      <p class="clinic-single-video__profile-title">Dr Thamer Alessa</p>
-                      <p class="clinic-single-video__profile-subtitle">Prof of Anything PSDG</p>
-                    </div>
-
-                  </div>
-                  <div class="clinic-single-video__buttons">
-                    <button class="btn btn-md btn-secondary btn-border-blue clinic-single-video__btn-bottom">View Lab Results</button>
-                    <button class="btn btn-md btn-primary">Take the Quiz</button>
-                  </div>
-
-                </div>
 
 
               </div>

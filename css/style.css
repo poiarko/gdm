@@ -885,6 +885,65 @@ p {
     font-size: 20px;
     line-height: 20px; }
 
+.chart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .chart-item__ellipse-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+    border-radius: 42%; }
+  .chart-item__ellipse {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #E0E5E9;
+    border-radius: 42%; }
+  .chart-item__info-circle {
+    stroke: #ACADB8; }
+  .chart-item__info-circle-symbol {
+    fill: #ACADB8; }
+  .chart-item__done-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0; }
+  .chart-item__text {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ACADB8; }
+  .chart-item_active .chart-item__ellipse-wrap {
+    border: 1.5px solid #F7F7F8; }
+  .chart-item_active .chart-item__ellipse {
+    border: 1.5px solid #247BFD; }
+  .chart-item_active .chart-item__text {
+    font-size: 15px;
+    line-height: 16px;
+    color: #000333; }
+  .chart-item_completed .chart-item__done-icon {
+    opacity: 1; }
+  .chart-item_completed .chart-item__ellipse {
+    border: 1px solid #66B7B0;
+    background: #F6F9F8; }
+  .chart-item_completed .chart-item__sector-segment-active {
+    fill: #66B7B0; }
+  .chart-item_completed .chart-item__info-circle {
+    stroke: #66B7B0; }
+  .chart-item_completed .chart-item__info-circle-symbol {
+    fill: #00877B; }
+  .chart-item_completed .chart-item__svg-play {
+    stroke: #00877B; }
+  .chart-item_completed .chart-item__text {
+    color: #00877B; }
+
 .dashboard__card-bottom {
   display: flex;
   justify-content: space-between;
@@ -923,9 +982,19 @@ p {
   flex-wrap: wrap;
   padding: 16px 6px 0 0; }
 
-.clinic-single-video .btn-top-header {
+.clinic-single-video__card-header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+.clinic-single-video__card-header-inner-left {
+  display: flex;
+  align-items: center; }
+.clinic-single-video__card-header-inner-right {
+  margin-right: 24px; }
+.clinic-single-video__btn-top-header {
   margin-left: 24px; }
-.clinic-single-video .btn-bottom {
+.clinic-single-video__btn-bottom {
   margin-right: 24px; }
 .clinic-single-video__title {
   margin-left: 24px;
@@ -1266,5 +1335,61 @@ p {
     padding-top: 13px;
     padding-right: 20px;
     color: #000333; }
+
+.clinic-single-chart__btn-top-header {
+  margin-left: 24px; }
+.clinic-single-chart__title {
+  margin-left: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000333; }
+.clinic-single-chart__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0 50px 8px; }
+.clinic-single-chart__chart-wrap {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: 7px solid #F7F7F8; }
+.clinic-single-chart__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+.clinic-single-chart__profile-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  line-height: 16px;
+  color: #000333; }
+.clinic-single-chart__profile-subtitle {
+  font-size: 12px;
+  line-height: 12px; }
+.clinic-single-chart__chart-circle-inner {
+  width: 264px;
+  height: 264px;
+  border-radius: 50%; }
+.clinic-single-chart__text-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 226px; }
+.clinic-single-chart__text-wrap-item {
+  margin-bottom: 32px; }
+  .clinic-single-chart__text-wrap-item_active .clinic-single-chart__text-wrap-item-title {
+    color: #000333; }
+  .clinic-single-chart__text-wrap-item_active .clinic-single-chart__text-wrap-item-desc {
+    color: #676874; }
+  .clinic-single-chart__text-wrap-item_completed .clinic-single-chart__text-wrap-item-title {
+    color: #00877B; }
+  .clinic-single-chart__text-wrap-item_completed .clinic-single-chart__text-wrap-item-desc {
+    color: #676874; }
+.clinic-single-chart__text-wrap-item-title {
+  margin-bottom: 8px;
+  color: #ACADB8; }
+.clinic-single-chart__text-wrap-item-desc {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ACADB8; }
 
 /*# sourceMappingURL=style.css.map */

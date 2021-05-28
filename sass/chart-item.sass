@@ -1,0 +1,78 @@
+.chart-item
+  display: flex
+  flex-direction: column
+  align-items: center
+
+  &__ellipse-wrap
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100px
+    height: 100px
+    margin-bottom: 8px
+    border-radius: 42%
+
+  &__ellipse
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 90px
+    height: 90px
+    border: 1px solid $color-grey-20
+    border-radius: 42%
+  
+  &__info-circle
+    stroke: $color-grey-40
+  
+  &__info-circle-symbol
+    fill: $color-grey-40
+
+  &__done-icon
+    position: absolute
+    top: 0
+    right: 0
+    opacity: 0
+
+  &__text
+    font-weight: 600
+    font-size: 12px
+    line-height: 16px
+    color: $color-grey-40
+
+
+
+  &_active
+    .chart-item__ellipse-wrap
+      border: 1.5px solid $color-grey-10
+
+    .chart-item__ellipse
+      border: 1.5px solid $color-blue
+
+    .chart-item__text
+      font-size: 15px
+      line-height: 16px
+      color: $color-dark
+
+  &_completed
+    .chart-item__done-icon
+      opacity: 1
+
+    .chart-item__ellipse
+      border: 1px solid $color-green-light
+      background: #F6F9F8
+
+    .chart-item__sector-segment-active
+      fill: $color-green-light
+
+    .chart-item__info-circle
+      stroke: $color-green-light
+
+    .chart-item__info-circle-symbol
+      fill: $color-green
+
+    .chart-item__svg-play
+      stroke: $color-green
+
+    .chart-item__text
+      color: $color-green
