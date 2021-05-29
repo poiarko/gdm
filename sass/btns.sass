@@ -23,6 +23,7 @@
   &-secondary
     display: flex
     align-items: center
+    justify-content: center
     color: $color-blue
     background: $color-white
 
@@ -36,8 +37,21 @@
     &__icon
       margin-right: 8px
 
+  &-arrow-right
+    &__icon
+      margin-left: 16px
+
+  &-arrow-blue
     path
       stroke: $color-blue
+
+  &-arrow-white
+    path
+      stroke: $color-white
+
+  &-color-grey
+    color: $color-grey-40
+  
 
 // Todo: buttons
   &__text
@@ -59,51 +73,6 @@
   &_xl
     width: 100%
 
-// Todo: edit btn-secondary (padding)
-
-  &__text
-    font-size: 15px
-    font-weight: 600
-    line-height: 16px
-    margin-right: 16px
-    white-space: nowrap
-    color: $color-blue
-
-  &__arrow
-    width: 16px
-    height: 16px
-
-  &_full
-    width: 100%
-    justify-content: center
-
-  &_lg
-    width: 320px
-    height: 48px
-
-.btn-secondary-2
-  display: flex
-  justify-content: center
-  align-items: center
-  width: 156px
-  height: 32px
-  font-size: 15px
-  font-weight: 600
-  line-height: 16px
-  background-color: $color-white
-  border: 1px solid $color-blue
-  border-radius: 3px
-
-  &__text
-    color: $color-blue
-
-  &_deactive
-    width: 87px
-    margin-left: 12px
-    border: 1px solid $color-grey-20
-
-    span
-      color: $color-grey-40
 
 .btn-info
   display: flex
