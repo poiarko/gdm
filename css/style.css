@@ -393,91 +393,89 @@ p {
   align-items: center;
   width: 190px;
   height: 174px;
-  margin-right: 16px;
+  margin-right: 21px;
+  margin-bottom: 32px;
   background: #FFFFFF;
   border: 1px solid #E0E5E9;
   border-radius: 4px;
   opacity: 0.5; }
-  .card-visitor:nth-child(-n+4) {
-    margin-bottom: 5px; }
-  .card-visitor:nth-child(4n+4) {
-    margin-right: 0; }
-  .card-visitor .photo {
+  .card-visitor__photo {
     width: 60px;
     height: 60px;
     margin-bottom: 16px; }
-  .card-visitor .title {
+  .card-visitor__title {
     margin-bottom: 4px;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
     color: #ACADB8; }
-  .card-visitor .count {
+  .card-visitor__count {
     margin-bottom: 16px;
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
-    color: transparent; }
-  .card-visitor .status {
+    opacity: 0; }
+  .card-visitor__status {
     font-weight: 600;
     font-size: 12px;
     line-height: 10px;
     color: #ACADB8; }
-  .card-visitor .done-img {
+  .card-visitor__done-img {
     position: absolute;
     right: 7px;
     top: 7px;
     opacity: 0; }
-  .card-visitor .percent-wrap {
+  .card-visitor__percent-wrap {
     display: none;
     justify-content: center;
     align-items: center; }
-    .card-visitor .percent-wrap .percent {
-      font-size: 12px;
-      font-weight: 600;
-      line-height: 10px;
-      margin-right: 5px;
-      color: #00877B; }
-    .card-visitor .percent-wrap .progress-bar {
-      width: 91px;
-      height: 3px;
-      background: #E0E5E9;
-      border-radius: 10px; }
-      .card-visitor .percent-wrap .progress-bar .indicator {
-        width: 34%;
-        height: 100%;
-        background-color: #FFFFFF;
-        background: #66B7B0;
-        border-radius: 10px; }
+  .card-visitor__percent {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 10px;
+    margin-right: 5px;
+    color: #00877B; }
+  .card-visitor__progress-bar {
+    width: 91px;
+    height: 3px;
+    background: #E0E5E9;
+    border-radius: 10px; }
+  .card-visitor__indicator {
+    width: 34%;
+    height: 100%;
+    background-color: #FFFFFF;
+    background: #66B7B0;
+    border-radius: 10px; }
   .card-visitor_completed {
     background: #F6F9F8;
     border: 1px solid #66B7B0;
     opacity: 0.8; }
-    .card-visitor_completed .title {
+    .card-visitor_completed .card-visitor__title {
       color: #676874; }
-    .card-visitor_completed .count {
+    .card-visitor_completed .card-visitor__count {
+      opacity: 1;
       color: #676874; }
-    .card-visitor_completed .status {
+    .card-visitor_completed .card-visitor__status {
       color: #00877B; }
-    .card-visitor_completed .done-img {
+    .card-visitor_completed .card-visitor__done-img {
       opacity: 1; }
   .card-visitor_active {
-    width: 200px;
-    height: 184px;
-    margin-top: -6px;
-    margin-bottom: 27px;
+    transform: scale(1.06);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     opacity: 1; }
-    .card-visitor_active .title {
+    .card-visitor_active .card-visitor__photo {
+      opacity: 1; }
+    .card-visitor_active .card-visitor__title {
       color: #000333; }
-    .card-visitor_active .count {
+    .card-visitor_active .card-visitor__count {
+      opacity: 1;
       color: #676874; }
-    .card-visitor_active .status {
+    .card-visitor_active .card-visitor__status {
       display: none;
       color: #00877B; }
-    .card-visitor_active .percent-wrap {
+    .card-visitor_active .card-visitor__percent-wrap {
       display: flex; }
-    .card-visitor_active .done-img {
+    .card-visitor_active .card-visitor__done-img {
       opacity: 0; }
 
 .card-library {
@@ -984,10 +982,17 @@ p {
     display: flex;
     flex-direction: column; }
 
-.clinic-wrap {
+.clinic__title {
+  margin-left: 55px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000333; }
+.clinic__content {
   display: flex;
   flex-wrap: wrap;
-  padding: 16px 6px 0 0; }
+  padding-top: 16px;
+  padding-left: 15px; }
 
 .clinic-single-video__card-header-inner {
   display: flex;
