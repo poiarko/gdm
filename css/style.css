@@ -534,6 +534,7 @@ p {
   .btn-secondary {
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #247BFD;
     background: #FFFFFF; }
   .btn-transparent {
@@ -542,29 +543,14 @@ p {
     border: 1px solid #247BFD; }
   .btn-arrow-left__icon {
     margin-right: 8px; }
-  .btn-arrow-left path {
+  .btn-arrow-right__icon {
+    margin-left: 16px; }
+  .btn-arrow-blue path {
     stroke: #247BFD; }
-
-.btn-secondary-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 156px;
-  height: 32px;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 16px;
-  background-color: #FFFFFF;
-  border: 1px solid #247BFD;
-  border-radius: 3px; }
-  .btn-secondary-2__text {
-    color: #247BFD; }
-  .btn-secondary-2_deactive {
-    width: 87px;
-    margin-left: 12px;
-    border: 1px solid #E0E5E9; }
-    .btn-secondary-2_deactive span {
-      color: #ACADB8; }
+  .btn-arrow-white path {
+    stroke: #FFFFFF; }
+  .btn-color-grey {
+    color: #ACADB8; }
 
 .btn-info {
   display: flex;
@@ -722,29 +708,24 @@ p {
     font-size: 13px;
     color: #ACADB8; }
 
-.filter {
-  position: relative;
+.popup-filters {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 486px;
-  max-height: 375px;
   background: #FFFFFF;
   padding: 40px 68px 23px 68px; }
-  .filter__title {
-    margin-bottom: 24px;
+  .popup-filters__title {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
+    text-align: center;
+    margin-bottom: 24px;
     color: #000333; }
-  .filter__close-icon {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 16px;
-    right: 16px; }
-  .filter__input-wrap {
+  .popup-filters-btn {
+    width: 100%; }
+  .popup-filters__input-wrap {
     border: 1px solid #E0E5E9;
     box-sizing: border-box;
     border-radius: 3px; }
@@ -943,6 +924,32 @@ p {
     stroke: #00877B; }
   .chart-item_completed .chart-item__text {
     color: #00877B; }
+
+.popup-notify {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 68px; }
+  .popup-notify__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000333; }
+  .popup-notify__subtitle {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px; }
+
+.card-popup {
+  position: relative;
+  max-width: 486px;
+  background: #FFFFFF;
+  border-radius: 4px; }
+  .card-popup__close-icon {
+    position: absolute;
+    top: 16px;
+    right: 16px; }
 
 .dashboard__card-bottom {
   display: flex;

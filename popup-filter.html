@@ -13,24 +13,26 @@
 
 <body>
 
-  <div class="filter">
-    <p class="filter__title">
-      Filters
-    </p>
+  <div class="card-popup">
+    <img class="card-popup__close-icon" src="./icon/Close.svg" alt="" />
+    <div class="popup-filters">
 
-    <div class="filter__close-icon">
-      <img src="./icon/Close.svg" alt="">
+      <p class="popup-filters__title">
+        Filters
+      </p>
+
+      <div class="input-wrap input-wrap_filter">
+        <input class="input-wrap__input input-wrap__input_filter" type="text" id="name" value="Author Name">
+      </div>
+
+      <div class="input-wrap input-wrap_filter">
+        <input class="input-wrap__input input-wrap__input_filter" type="text" id="year" value="Published Year">
+      </div>
+
+      <button class="btn btn-secondary btn-border-blue btn-lg popup-filters-btn">Apply the filters</button>
+      <button class="btn btn-secondary btn-color-grey btn-lg popup-filters-btn">Clear all filters</button>
     </div>
 
-    <div class="input-wrap input-wrap_filter">
-      <input class="input-wrap__input input-wrap__input_filter" type="text" id="name" value="Author Name">
-    </div>
-
-    <div class="input-wrap input-wrap_filter">
-      <input class="input-wrap__input input-wrap__input_filter" type="text" id="year" value="Published Year">
-    </div>
-
-    <button class="">--------------------------</button>
   </div>
 
 
